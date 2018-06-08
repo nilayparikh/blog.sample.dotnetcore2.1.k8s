@@ -1,0 +1,1 @@
+# blog.sample.dotnetcore2.1.k8s
