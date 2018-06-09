@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  web:
+    image: web
+    build:
+      context: .
+      dockerfile: Web/Dockerfile
+
+  bffproductservice:
+    image: bffproductservice
+    build:
+      context: .
+      dockerfile: Services/BFF.ProductService/Dockerfile
+
